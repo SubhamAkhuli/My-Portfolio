@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/958e8a374f.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <img src="logo.jpg" alt="Logo" width="38" height="38" class="d-inline-block rounded-circle me-2 shadow-sm">
+                <span class="fw-bold">Subham Akhuli</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-lg-2 gap-1">
+                    <li class="nav-item"><a class="nav-link px-3" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#hobbies">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center flex-column-reverse flex-lg-row">
+                <div class="col-lg-6 hero-content text-center text-lg-start mb-5 mb-lg-0">
+                    <h1 class="display-4 fw-bold mb-3 text-gradient">Hi, I'm Subham Akhuli</h1>
+                    <h3 class="mb-4 text-secondary">Software Developer <span class="d-none d-md-inline">|</span> Web Development Specialist</h3>
+                    <p class="lead mb-5 text-muted">From Kolkata, India. I create modern web applications and solve real-world problems with code.</p>
+                    <div class="d-flex gap-3 justify-content-center justify-content-lg-start flex-wrap">
+                        <a href="#contact" class="btn btn-custom">Let's Connect <i class="fas fa-arrow-right ms-2"></i></a>
+                        <a href="Subham_Akhuli_Resume.pdf" target="_blank" class="btn btn-custom">
+                            Download CV <i class="fa-solid fa-download ms-2"></i>
+                        </a>
+                    </div>
+                    <div class="social-icons d-flex gap-2 mt-4 justify-content-center justify-content-lg-start">
+                        <a href="https://github.com/SubhamAkhuli" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/subhamakhuli" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:subhamakhuli7586@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 profile-container text-center text-lg-end mb-4 mb-lg-0">
+                    <img src="image.jpg" class="img-fluid rounded-circle profile-img shadow-lg" alt="profile-pic">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="lead mb-4">Motivated and passionate Web Developer with experience in building responsive, dynamic web applications using ReactJS, NodeJS, PHP, and MongoDB. Skilled in both frontend and backend development, with a strong foundation in OOP, databases, and web technologies. Eager to contribute to innovative development teams and grow as a full-stack developer.</p>
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="card shadow-sm p-3 text-center">
+                                <h6 class="mb-1 text-gradient">Location</h6>
+                                <span class="fw-bold">Kolkata, India</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card shadow-sm p-3 text-center">
+                                <h6 class="mb-1 text-gradient">Languages</h6>
+                                <span class="fw-bold">English, Hindi, Bengali</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-timeline mt-5">
+                        <h3 class="mb-4">Education</h3>
+                        <div class="card shadow-sm mb-4 p-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-graduation-cap text-primary fs-3 me-3"></i>
+                                <div>
+                                    <h6 class="mb-0">B.Tech. Computer Science & Engineering</h6>
+                                    <small class="text-muted">Meghnad Saha Institute Of Technology, MAKAUT | 2020-2024</small>
+                                    <small class="text-muted d-block">C.G.P.A - 8.74</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card shadow-sm mb-4 p-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-school text-primary fs-3 me-3"></i>
+                                <div>
+                                    <h6 class="mb-0">Higher Secondary</h6>
+                                    <small class="text-muted">WBCHSE, 2018</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card shadow-sm p-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-school text-primary fs-3 me-3"></i>
+                                <div>
+                                    <h6 class="mb-0">Secondary</h6>
+                                    <small class="text-muted">WBBSE, 2016</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="about-img text-center mb-4">
+                        <img src="user1.JPG" alt="About Image" class="img-fluid rounded-3 shadow-lg" style="max-height: 400px; object-fit: cover;">
+                    </div>
+                    <div class="experience mt-5">
+                        <h3 class="mb-4">Experience</h3>
+                        <div class="card shadow-sm mb-4 p-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-briefcase text-success fs-3 me-3"></i>
+                                <div>
+                                    <h6 class="mb-0">Web Developer Intern</h6>
+                                    <small class="text-muted">XYZ Company, 2023</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card shadow-sm mb-4 p-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-briefcase text-success fs-3 me-3"></i>
+                                <div>
+                                    <h6 class="mb-0">Freelance Web Projects</h6>
+                                    <small class="text-muted">2022 - Present</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card shadow-sm p-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-briefcase text-success fs-3 me-3"></i>
+                                <div>
+                                    <h6 class="mb-0">Open Source Contributor</h6>
+                                    <small class="text-muted">GitHub, 2021 - Present</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="skill-item">
+                        <div class="skill-icon" style="background-color: #61DBFB;">
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">ReactJS</h5>
+                            <div class="progress mt-2" style="height: 6px;">
+                                <div class="progress-bar" role="progressbar" style="width: 85%; background-color: #61DBFB;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="background-color: #68A063;">
+                            <i class="fa-brands fa-node-js"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">NodeJS</h5>
+                            <div class="progress mt-2" style="height: 6px;">
+                                <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #68A063;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="background-color: #F7DF1E; color: #222;">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">JavaScript</h5>
+                            <div class="progress mt-2" style="height: 6px;">
+                                <div class="progress-bar" role="progressbar" style="width: 85%; background-color: #F7DF1E;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="background-color: #E34F26;">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">HTML</h5>
+                            <div class="progress mt-2" style="height: 6px;">
+                                <div class="progress-bar" role="progressbar" style="width: 95%; background-color: #E34F26;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="background-color: #1572B6;">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">CSS</h5>
+                            <div class="progress mt-2" style="height: 6px;">
+                                <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #1572B6;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="skill-item">
+                        <div class="skill-icon" style="background-color: #4CAF50;">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">Python</h5>
+                            <div class="progress mt-2" style="height: 6px;">
+                                <div class="progress-bar" role="progressbar" style="width: 70%; background-color: #4CAF50;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="background-color: #4DB33D;">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">MongoDB</h5>
+                            <div class="progress mt-2" style="height: 6px;">
+                                <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #4DB33D;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="background-color: #EF4223;">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">MySQL</h5>
+                            <div class="progress mt-2" style="height: 6px;">
+                                <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #EF4223;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="background-color: #EE4323;">
+                            <i class="fa-brands fa-git-alt"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">Git & GitHub</h5>
+                            <div class="progress mt-2" style="height: 6px;">
+                                <div class="progress-bar" role="progressbar" style="width: 85%; background-color: #EE4323;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="background-color: #DD4814;">
+                            <i class="fa-solid fa-plug"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">REST Api</h5>
+                            <div class="progress mt-2" style="height: 6px;">
+                                <div class="progress-bar" role="progressbar" style="width: 75%; background-color: #DD4814;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certificates mt-5">
+                <h3 class="mb-4">Certificates</h3>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <i class="fas fa-certificate text-warning fs-2 mb-2"></i>
+                                <h5 class="mb-2">Python (Basic) - HackerRank</h5>
+                                <a href="#" class="btn btn-outline-primary w-100 mt-2">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <i class="fas fa-certificate text-warning fs-2 mb-2"></i>
+                                <h5 class="mb-2">MongoDB Basics - Great Learning</h5>
+                                <a href="#" class="btn btn-outline-primary w-100 mt-2">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <i class="fas fa-certificate text-warning fs-2 mb-2"></i>
+                                <h5 class="mb-2">Node Js - Great Learning</h5>
+                                <a href="#" class="btn btn-outline-primary w-100 mt-2">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold text-primary mb-3">Ecommerce Website</h4>
+                            <p class="card-text">A full-stack online shopping platform with product listings, search, filters, secure checkout, user authentication, and integrated customer support for a smooth buying experience.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">ReactJS</span>
+                                <span class="badge bg-primary me-1">NodeJS</span>
+                                <span class="badge bg-primary me-1">ExpressJs</span>
+                                <span class="badge bg-primary me-1">MongoDB</span>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-outline-primary rounded-pill">
+                                <i class="fas fa-external-link-alt me-2"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold text-primary mb-3">Doctor's Appointment Booking System</h4>
+                            <p class="card-text">A PHP-based web app that lets patients easily book, manage, and track medical appointments with doctors, improving clinic scheduling efficiency.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">PHP</span>
+                                <span class="badge bg-primary me-1">HTML</span>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-outline-primary rounded-pill">
+                                <i class="fas fa-external-link-alt me-2"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold text-primary mb-3">Discussion Forum</h4>
+                            <p class="card-text">A responsive platform for users to post questions, share solutions, and engage in knowledge exchange across various topics, fostering a collaborative learning space.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">PHP</span>
+                                <span class="badge bg-primary me-1">Bootstrap</span>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-outline-primary rounded-pill">
+                                <i class="fas fa-external-link-alt me-2"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">My Hobbies</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100 shadow overflow-hidden">
+                        <img src="hobbies-1.jpg" class="card-img-top" alt="Listening Music" style="height: 200px; object-fit: cover;">
+                        <div class="card-body text-center p-4">
+                            <h5 class="card-title">Listening Music</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 shadow overflow-hidden">
+                        <img src="hobbies-2.jpg" class="card-img-top" alt="Travelling" style="height: 200px; object-fit: cover;">
+                        <div class="card-body text-center p-4">
+                            <h5 class="card-title">Travelling</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="row g-4">
+                <div class="col-lg-5">
+                    <div class="contact-info">
+                        <div class="card shadow-sm p-4 mb-4">
+                            <h5 class="mb-2"><i class="fas fa-envelope me-2 text-primary"></i> Email</h5>
+                            <p class="mb-0">subhamakhuli7586@gmail.com</p>
+                        </div>
+                        <div class="card shadow-sm p-4">
+                            <h5 class="mb-2"><i class="fas fa-map-marker-alt me-2 text-primary"></i> Location</h5>
+                            <p class="mb-0">Kolkata, West Bengal, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="card shadow-sm p-4">
+                        <h4 class="mb-4 fw-bold">Send Message</h4>
+                        <form name="submit_by_email" method="post" class="contact-form">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-custom w-100">Send <i class="fas fa-paper-plane ms-2"></i></button>
+                        </form>
+                        <div id="msg" class="mt-3 text-success"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center mb-3 mb-md-0">
+                        <img src="logo.jpg" alt="Logo" width="40" height="40" class="rounded-circle me-3">
+                        <div>
+                            <h5 class="mb-0">Subham Akhuli</h5>
+                            <small class="text-light">Web Developer</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0 small">© <script>document.write(new Date().getFullYear())</script> All rights reserved | Developed with <i class="fas fa-heart text-danger"></i> by Subham Akhuli</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script>
+        // Add active class to nav items based on scroll position
+        document.addEventListener('DOMContentLoaded', function() {
+            // // Form submission
+            // const form = document.forms['submit-in-php'];
+            // const msg = document.getElementById("msg");
+            
+            // form.addEventListener('submit', e => {
+            //     e.preventDefault();
+            //     fetch('form.php', { method: 'POST', body: new FormData(form) })
+            //         .then(response => {
+            //             msg.innerHTML = "Message Sent Successfully";
+            //             setTimeout(function () {
+            //                 msg.innerHTML = "";
+            //             }, 3000);
+            //             form.reset();
+            //         })
+            //         .catch(error => console.error('Error!', error.message));
+            // });
+
+            // Form submission
+            (function() {
+                // Add EmailJS script to the document if it doesn't exist
+                if (!window.emailjs) {
+                    const script = document.createElement('script');
+                    script.src = 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
+                    script.type = 'text/javascript';
+                    document.head.appendChild(script);
+                    
+                    script.onload = function() {
+                        // Initialize EmailJS with your public key
+                        emailjs.init({
+                            publicKey: "oDllQT8BCOWxRRNeg",
+                        });
+                    };
+                }
+            })();
+
+            // Form submission handling
+            const form = document.forms['submit_by_email'];
+            const msg = document.getElementById("msg");
+
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                var name = document.getElementById("name").value;
+                var email = document.getElementById("email").value;
+                var message = document.getElementById("message").value;
+                if (!name || !email || !message) {
+                    msg.innerHTML = "<span class='text-danger'>Please fill all fields.</span>";
+                    return;
+                }
+
+                var data = {
+                    from_name: name,
+                    name: name,
+                    email: email,
+                    date: new Date().toLocaleString(),
+                    message: message
+                };
+
+                // Show sending message
+                msg.innerHTML = "<span class='text-info'>Sending message...</span>";
+                
+                // Use EmailJS to send the form
+                // emailjs.sendForm('service_ralqiu8', 'template_7tz923v', this)
+                emailjs.send("service_ralqiu8","template_7tz923v", data)
+                    .then(function() {
+                        msg.innerHTML = "<span class='text-success'>Message sent successfully!</span>";
+                        form.reset();
+                        setTimeout(function() {
+                            msg.innerHTML = "";
+                        }, 3000);
+                    })
+                    .catch(function(error) {
+                        msg.innerHTML = "<span class='text-danger'>Failed to send message. Please try again.</span>";
+                        console.error('EmailJS error:', error);
+                        setTimeout(function() {
+                            msg.innerHTML = "";
+                        }, 3000);
+                    });
+            });
+            
+            // Change navbar background on scroll
+            const navbar = document.querySelector('.navbar');
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.style.background = 'rgba(43, 45, 66, 0.95)';
+                    navbar.classList.add('shadow');
+                } else {
+                    navbar.style.background = 'var(--text-color)';
+                    navbar.classList.remove('shadow');
+                }
+            });
+            
+            // Smooth scrolling for nav links
+            const navLinks = document.querySelectorAll('.navbar-nav a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    const navbarHeight = document.querySelector('.navbar').offsetHeight;
+                    
+                    window.scrollTo({
+                        top: targetElement.offsetTop - navbarHeight,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu when link is clicked
+                    const navbarCollapse = document.querySelector('.navbar-collapse');
+                    if (navbarCollapse.classList.contains('show')) {
+                        navbarCollapse.classList.remove('show');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
