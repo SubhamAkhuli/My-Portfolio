@@ -44,7 +44,7 @@ This is a responsive personal portfolio website for Subham Akhuli, a Software De
 - `logo.jpg` - Logo image
 - `image.jpg` - Profile image
 - `user1.JPG` - About section image
-- `Subham_Akhuli_Resume.pdf` - Resume file (downloadable)
+- `Subham Akhuli Resume.pdf` - Resume file (downloadable)
 
 ## EmailJS Setup
 The contact form uses EmailJS to send emails without a backend server. To set up:
